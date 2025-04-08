@@ -2,7 +2,7 @@ import sys
 import argparse
 import time
 import struct
-from RF24 import RF24, RF24_PA_LOW, RF24_250KBPS
+from pyrf24 import RF24, RF24_PA_LOW, RF24_250KBPS
 
 radio = RF24(22,0)
 #address= b"\x78\x78\x78\x78\x78"
